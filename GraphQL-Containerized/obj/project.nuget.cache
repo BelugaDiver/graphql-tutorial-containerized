@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "yt4sCG+qMFGvKkhwZGYoYUb4nh7dedkj8KrbOt4Hw5E0Kn/2mvT/72w4UmbLnvmMVHwkF88mKGwxwQVe6JuivA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ToAd\\Github\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ToAd\\.nuget\\packages\\graphql\\7.0.2\\graphql.7.0.2.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\graphql-parser\\8.1.0\\graphql-parser.8.1.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\graphql.microsoftdi\\7.0.2\\graphql.microsoftdi.7.0.2.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\graphql.server.transports.aspnetcore\\7.1.0\\graphql.server.transports.aspnetcore.7.1.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\graphql.systemtextjson\\7.0.2\\graphql.systemtextjson.7.0.2.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\ToAd\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

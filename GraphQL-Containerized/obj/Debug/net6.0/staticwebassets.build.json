@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YlHGD9ZMPx5UoA2uMix4PFRTgO8p5EWOOv4y8vabgl8=",
+  "Source": "GraphQL-Containerized",
+  "BasePath": "_content/GraphQL-Containerized",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
