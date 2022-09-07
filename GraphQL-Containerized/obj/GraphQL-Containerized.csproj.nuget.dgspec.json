@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ToAd\\Github\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj": {}
+    "C:\\Users\\jamin\\source\\repos\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ToAd\\Github\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj": {
+    "C:\\Users\\jamin\\source\\repos\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ToAd\\Github\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj",
+        "projectUniqueName": "C:\\Users\\jamin\\source\\repos\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj",
         "projectName": "GraphQL-Containerized",
-        "projectPath": "C:\\Users\\ToAd\\Github\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj",
-        "packagesPath": "C:\\Users\\ToAd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ToAd\\Github\\graphql-tutorial-containerized\\GraphQL-Containerized\\obj\\",
+        "projectPath": "C:\\Users\\jamin\\source\\repos\\graphql-tutorial-containerized\\GraphQL-Containerized\\GraphQL-Containerized.csproj",
+        "packagesPath": "C:\\Users\\jamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jamin\\source\\repos\\graphql-tutorial-containerized\\GraphQL-Containerized\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ToAd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/episerver/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -53,10 +52,6 @@
               "target": "Package",
               "version": "[7.1.0, )"
             },
-            "Microsoft.AspNet.WebApi.Core": {
-              "target": "Package",
-              "version": "[5.2.9, )"
-            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.0, )"
@@ -76,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -89,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
