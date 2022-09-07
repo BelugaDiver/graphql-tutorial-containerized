@@ -1,10 +1,11 @@
 ﻿using GraphQL.Types;
+using GraphQL_Containerized.GraphQl.Types;
 
 namespace GraphQL_Containerized.Types
 {
     public class UserType : ObjectGraphType<User>
     {
-        public UserType()
+        public UserType() : base()
         {
             Field(x => x.Id);
             Field(x => x.ExternalUserId);
@@ -16,7 +17,7 @@ namespace GraphQL_Containerized.Types
             Field(x => x.LastLoggedIn);
             Field(x => x.Created);
             Field(x => x.Modified);
-            Field(x => x.Properties);
+            Field<ListGraphType<PropertyType>>("properties");
         }
     }
 }

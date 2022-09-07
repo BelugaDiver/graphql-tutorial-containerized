@@ -1,11 +1,17 @@
 using GraphQL;
+using GraphQL.Types;
 using GraphQL_Containerized.GraphQl.Schemas;
+using GraphQL_Containerized.Queries;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddSingleton<UserQuery>();
+builder.Services.AddSingleton<ISchema>(new UserSchema());
+
 builder.Services.AddGraphQL(b => b
-        .AddAutoSchema<UserSchema>()  // schema
+        .AddAutoSchema<ISchema>()  // schema
         .AddSystemTextJson()
     )
     .AddLogging(c => c.AddConsole());   // serializer
