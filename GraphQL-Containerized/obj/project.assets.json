@@ -70,6 +70,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "GraphQL.Server.Ui.Playground/7.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "GraphQL.SystemTextJson/7.0.2": {
         "type": "package",
         "dependencies": {
@@ -348,6 +364,23 @@
         "lib/netcoreapp3.1/GraphQL.Server.Transports.AspNetCore.xml",
         "lib/netstandard2.0/GraphQL.Server.Transports.AspNetCore.dll",
         "lib/netstandard2.0/GraphQL.Server.Transports.AspNetCore.xml",
+        "logo.64x64.png"
+      ]
+    },
+    "GraphQL.Server.Ui.Playground/7.1.0": {
+      "sha512": "e30//F9NPFY1ncQk9WFVuZBDKUMzd+4yJg/oBW7xt2vfH4HQdM6fKkjo9ZVFdjIArDOQoMj+YKziJCNnej+ngg==",
+      "type": "package",
+      "path": "graphql.server.ui.playground/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "graphql.server.ui.playground.7.1.0.nupkg.sha512",
+        "graphql.server.ui.playground.nuspec",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.dll",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.Playground.xml",
+        "lib/netstandard2.0/GraphQL.Server.Ui.Playground.dll",
+        "lib/netstandard2.0/GraphQL.Server.Ui.Playground.xml",
         "logo.64x64.png"
       ]
     },
@@ -831,6 +864,7 @@
     "net6.0": [
       "GraphQL >= 7.0.2",
       "GraphQL.Server.Transports.AspNetCore >= 7.1.0",
+      "GraphQL.Server.Ui.Playground >= 7.1.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -881,6 +915,10 @@
             "version": "[7.0.2, )"
           },
           "GraphQL.Server.Transports.AspNetCore": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
+          "GraphQL.Server.Ui.Playground": {
             "target": "Package",
             "version": "[7.1.0, )"
           },

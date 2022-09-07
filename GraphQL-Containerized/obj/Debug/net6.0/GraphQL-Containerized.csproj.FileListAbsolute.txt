@@ -31,3 +31,4 @@ C:\Users\ToAd\Github\graphql-tutorial-containerized\GraphQL-Containerized\bin\De
 C:\Users\ToAd\Github\graphql-tutorial-containerized\GraphQL-Containerized\bin\Debug\net6.0\GraphQL.MicrosoftDI.dll
 C:\Users\ToAd\Github\graphql-tutorial-containerized\GraphQL-Containerized\bin\Debug\net6.0\GraphQL.Server.Transports.AspNetCore.dll
 C:\Users\ToAd\Github\graphql-tutorial-containerized\GraphQL-Containerized\bin\Debug\net6.0\GraphQL.SystemTextJson.dll
+C:\Users\ToAd\Github\graphql-tutorial-containerized\GraphQL-Containerized\bin\Debug\net6.0\GraphQL.Server.Ui.Playground.dll

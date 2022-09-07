@@ -7,7 +7,7 @@ namespace GraphQL_Containerized.Queries
     {
         public UserQuery()
         {
-            Field<UserType>("user").Resolve(
+            Field<UserType>("user").Description("Returns a single User").Resolve(
                 context => new User()
                 );
         }

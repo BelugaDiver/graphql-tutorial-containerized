@@ -1,21 +1,25 @@
 using GraphQL;
-using GraphQL_Containerized.Queries;
-using GraphQL_Containerized.Types;
+using GraphQL_Containerized.GraphQl.Schemas;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddSingleton<UserQuery>();
-builder.Services.AddSingleton<UserType>();
-
 builder.Services.AddGraphQL(b => b
-    .AddAutoSchema<UserQuery>()  // schema
-    .AddSystemTextJson());   // serializer
+        .AddAutoSchema<UserSchema>()  // schema
+        .AddSystemTextJson()
+    )
+    .AddLogging(c => c.AddConsole());   // serializer
 
 var app = builder.Build();
 app.UseDeveloperExceptionPage();
 app.UseWebSockets();
 app.UseHttpsRedirection();
 app.UseGraphQL("/graphql");            // url to host GraphQL endpoint
+app.UseGraphQLPlayground(
+    "/",                               // url to host Playground at
+    new GraphQL.Server.Ui.Playground.PlaygroundOptions
+    {
+        GraphQLEndPoint = "/graphql",         // url of GraphQL endpoint
+        SubscriptionsEndPoint = "/graphql",   // url of GraphQL endpoint
+    });
 await app.RunAsync();
